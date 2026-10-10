@@ -1,0 +1,21 @@
+# NAND Flash Clone Tool - Python Dependencies
+# ============================================
+# Install with: pip install -r requirements.txt
+
+# GUI framework
+PyQt6==6.7.1
+PyQt6-Qt6==6.7.1
+PyQt6-sip==13.8.0
+
+# Serial communication
+pyserial==3.5
+
+# Optional: high-performance BCH ECC (C extension)
+# Uncomment if available for your platform:
+# bchlib==0.9
+
+# Optional: for faster ECC computation
+# numpy==1.26.4
+
+# Build/packaging (optional, for creating .exe)
+# pyinstaller==6.9.0
